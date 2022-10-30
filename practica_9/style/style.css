@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Thenightwatch';
+    src: url('fonts/Thenightwatch') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.textoencima {
+    font-family: Thenightwatch;
+    color:white;
+    font-weight: unset;
+    font-size: 150px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/fondo.jpg);
+    background-position: 30% 40%;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+#gif {
+    width: 50%;
+    filter: grayscale(100%);
+}
+
+#gif:hover {
+    filter: none;
+}
+
+
+#pngtrans {
+    width: 37%;
+    float: right;
+    filter: grayscale(100%);
+}
+
+#pngtrans:hover {
+    filter: none;
+}
+
+#jpg {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+#jpg:hover {
+    filter: none;
+}
+
+#png {
+    width: 60%;
+    filter: grayscale(100%);
+}
+
+#png:hover {
+    filter: none;
+}
+
+#svg {
+    width: 40%;
+    float: right;
+    filter: grayscale(100%);
+}
+
+#svg:hover {
+    filter: none;
+}
+
+#jpg2 {
+    width: 47%;
+    filter: grayscale(100%);
+}
+
+#jpg2:hover {
+    filter: none;
+}
+
+#jpg3 {
+    width: 52%;
+    filter: grayscale(100%);
+}
+
+#jpg3:hover {
+    filter: none;
+}
+
+#jpg4 {
+    width: 75%;
+    filter: grayscale(100%);
+}
+
+#jpg4:hover {
+    filter: none;
+}
+
+#jpg5 {
+    width: 24%; 
+    filter: grayscale(100%);
+}
+
+#jpg5:hover {
+    filter: none;
+}
