@@ -13,7 +13,7 @@ body {
     margin-right: 0%;
 }
 .textoencima {
-    font-family: Thenightwatch;
+    font-family: 'Thenightwatch';
     color:white;
     font-weight: unset;
     font-size: 150px;
@@ -31,86 +31,124 @@ body {
 }
 
 
-#gif {
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap:wrap;
+    position:static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+ }
+
+ img {
+    width: 100%;
+ }
+
+  .contenedor:hover {
+    opacity: 1;
+  }
+  
+  .textofoto {
+    color: white;
+    font-family: 'Thenightwatch';
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+.gif {
     width: 50%;
     filter: grayscale(100%);
 }
 
-#gif:hover {
+.gif:hover {
     filter: none;
 }
 
 
-#pngtrans {
-    width: 37%;
+.foto1 {
+    width: 50%;
+    filter: grayscale(100%);
+}
+
+.foto1:hover {
+    filter: none;
+}
+
+.foto2 {
+    width: 100%;
+    filter: grayscale(100%);
+    margin: 0%;
+}
+
+.foto2:hover {
+    filter: none;
+}
+
+.foto3 {
+    width: 50%;
+    filter: grayscale(100%);
+}
+
+.foto3:hover {
+    filter: none;
+}
+
+.foto4 {
+    width: 50%;
     float: right;
     filter: grayscale(100%);
 }
 
-#pngtrans:hover {
+.foto4:hover {
     filter: none;
 }
 
-#jpg {
+.foto5 {
     width: 100%;
     filter: grayscale(100%);
 }
 
-#jpg:hover {
+.foto5:hover {
     filter: none;
 }
 
-#png {
-    width: 60%;
+.foto6 {
+    width: 50%;
     filter: grayscale(100%);
 }
 
-#png:hover {
+.foto6:hover {
     filter: none;
 }
 
-#svg {
-    width: 40%;
-    float: right;
+.foto7 {
+    width: 50%;
     filter: grayscale(100%);
 }
 
-#svg:hover {
+.foto7:hover {
     filter: none;
 }
 
-#jpg2 {
-    width: 47%;
+.foto8 {
+    width: 100%; 
     filter: grayscale(100%);
 }
 
-#jpg2:hover {
+.foto8:hover {
     filter: none;
 }
 
-#jpg3 {
-    width: 52%;
-    filter: grayscale(100%);
-}
-
-#jpg3:hover {
-    filter: none;
-}
-
-#jpg4 {
-    width: 75%;
-    filter: grayscale(100%);
-}
-
-#jpg4:hover {
-    filter: none;
-}
-
-#jpg5 {
-    width: 24%; 
-    filter: grayscale(100%);
-}
-
-#jpg5:hover {
-    filter: none;
-}

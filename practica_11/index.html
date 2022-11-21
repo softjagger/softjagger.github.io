@@ -1,34 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 8</title>
+    <title>Práctica 11</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
         <h1 class="textoencima">EL ARTE DE LO SUBLIME</h1>
     </header>
-    
+
     <article>
-        <a href="images/imagengif.gif" target="_blank"> <img id="gif" src="images/imagengif.gif" alt="gif"> </a>
-        <a href="images/imagenpngtransparente.png" target="_blank"> <img id="pngtrans" src="images/imagenpngtransparente.png" alt="pngtrs"> </a>
-        <a href="images/imagenjpg.jpg" target="_blank"> <img id="jpg" src="images/imagenjpg.jpg" alt="jpg"> </a>
-        <a href="images/imagenpng.png" target="_blank"> <img id="png" src="images/imagenpng.png" alt="png"> </a>
-        <a href="images/imagensvg.svg" target="_blank"> <img id="svg" src="images/imagensvg.svg" alt="svg"> </a>
-        <a href="images/imagenjpg2.jpg" target="_blank"> <img id="jpg2" src="images/imagenjpg2.jpg" alt="jpg2"> </a>
-        <a href="images/imagenjpg3.jpg" target="_blank"> <img id="jpg3" src="images/imagenjpg3.jpg" alt="jpg3"> </a>
-        <a href="images/imagenjpg4.jpg" target="_blank"> <img id="jpg4" src="images/imagenjpg4.jpg" alt="jpg4"> </a>
-        <a href="images/imagenjpg5.jpg" target="_blank"> <img id="jpg5" src="images/imagenjpg5.jpg" alt="jpg5"> </a>
-    
+        <div class="contenedor">
+            <div class="gif">
+                <a href="images/imagengif.gif" data-lightbox="image-1" data-title="El desesperado, Gustave Courbet"><img
+                        src="images/imagengif.gif" alt="gif payico romanticismo"></a>
+                        <div class="textofoto">EL DESESPERADO</div>
+            </div>
+            <div class="foto1">
+                <a href="images/1.png" data-lightbox="image-1" data-title="El beso, Francesco Hayez"><img src="images/1.png"
+                        alt="beso"></a>
+                        <div class="textofoto">EL BESO</div>
+            </div>
+            <div class="foto2">
+                <a href="images/2.png" data-lightbox="image-1" data-title="La tarde, Caspar David Friedrich"><img src="images/2.png"
+                        alt="paisaje"></a>
+                        <div class="textofoto">LA TARDE</div>
+            </div>
+            <div class="foto3">
+                <a href="images/3.png" data-lightbox="image-1" data-title="Vuelo de Brujas, Francisco de Goya"><img src="images/3.png"
+                        alt="las brujas"></a>
+                        <div class="textofoto">VUELO DE BRUJAS</div>
+            </div>
+            <div class="foto4">
+                <a href="images/4.png" data-lightbox="image-1" data-title="En tiempo de peligro, Edmund Blair Leighton"><img src="images/4.png"
+                        alt="carruaje"></a>
+                        <div class="textofoto">EN TIEMPO DE PELIGRO</div>
+            </div>
+            <div class="foto5">
+                <a href="images/5.png" data-lightbox="image-1" data-title="Abadía en el robledal, Caspar David Friedrich"><img src="images/5.png"
+                        alt="paisaje2"></a>
+                        <div class="textofoto">ABADIA EN EL ROBLEDAL</div>
+            </div>
+            <div class="foto6">
+                <a href="images/6.png" data-lightbox="image-1" data-title="El aquelarre, Francisco de Goya"><img src="images/6.png"
+                        alt="gif coven"></a>
+                        <div class="textofoto">EL AQUELARRE</div>
+            </div>
+            <div class="foto7">
+                <a href="images/7.png" data-lightbox="image-1" data-title="Retrato de Bécquer, Valeriano Domínguez Bécquer "><img src="images/7.png"
+                        alt="becker"></a>
+                        <div class="textofoto">GUSTAVO ADOLFO BECQUER</div>
+            </div>
+            <div class="foto8">
+                <a href="images/8.png" data-lightbox="image-1" data-title="Novena ola, Ivan Aivazovski"><img src="images/8.png"
+                        alt="paisaje3"></a>
+                        <div class="textofoto">NOVENA OLA</div>
+            </div>
+
+        </div>
 
     </article>
 
-    <footer>
-
-    </footer>
-
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
+
 </html>

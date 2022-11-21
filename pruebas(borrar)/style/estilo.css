@@ -1,29 +1,16 @@
  .contenedor {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap:nowrap;
  }
 
- .foto1 {
-    flex-grow: 1;
-    flex-shrink: 1;
- }
- .foto2 {
-    flex-grow: 1;
-    flex-shrink: 1;
- }
- .foto3 {
-    flex-grow: 1;
-    flex-shrink: 1;
- }
- .foto4 {
-    flex-grow: 1;
-    flex-shrink: 1;
- }
- .foto5 {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
- }
+.contenedor div{
+   background-color: blueviolet;
+   height: 300px;
+}
+
+img{
+   width: 100%;
+}
