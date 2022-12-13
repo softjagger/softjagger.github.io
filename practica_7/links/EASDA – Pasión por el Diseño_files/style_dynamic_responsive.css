@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1024px){
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_content_responsive_styles function */
+.qodef-content .qodef-content-inner > .qodef-container > .qodef-container-inner, .qodef-content .qodef-content-inner > .qodef-full-width > .qodef-full-width-inner { padding-top: 80px!important;}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h1_responsive_styles3 function */
+h1 { font-size: 40px;line-height: 48px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h2_responsive_styles3 function */
+h2 { font-size: 32px;line-height: 40px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h3_responsive_styles3 function */
+h3 { font-size: 24px;line-height: 32px;}
+
+}
+
+@media only screen and (min-width: 681px) and (max-width: 768px){
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h1_responsive_styles function */
+h1 { font-size: 40px;line-height: 40px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h2_responsive_styles function */
+h2 { font-size: 32px;line-height: 40px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h3_responsive_styles function */
+h3 { font-size: 24px;line-height: 32px;}
+
+}
+
+@media only screen and (max-width: 680px){
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h1_responsive_styles2 function */
+h1 { font-size: 32px;line-height: 40px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h2_responsive_styles2 function */
+h2 { font-size: 32px;line-height: 40px;}
+
+/* generated in /isp/vhosts/easda.es/httpdocs/wp-content/themes/scribbler/assets/custom-styles/general-custom-styles-responsive.php scribbler_qodef_h3_responsive_styles2 function */
+h3 { font-size: 24px;line-height: 32px;}
+
+}

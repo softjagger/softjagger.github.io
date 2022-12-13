@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'alien';
+    src: url(../fonts/alien.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'barroco';
+    src: url(../fonts/barroco.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'culos';
+    src: url(../fonts/culos.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'geometria';
+    src: url(../fonts/geometria.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ladi';
+    src: url(../fonts/ladi.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'liquido';
+    src: url(../fonts/liquido.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'pilowala';
+    src: url(../fonts/pilowala.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'qaligo';
+    src: url(../fonts/qaligo.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'reserva';
+    src: url(../fonts/reserva.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    font-family:monospace;
+    justify-content: center;
+    padding: 2%;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contenedor {
+    display: flex;
+    width: 24%;
+    height: 40vh;
+    background-color: white;
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border: 1;
+    border-style: dashed;
+}
+
+main div p {
+    margin: 0;
+}
+
+#texto1 {
+    font-family: 'alien';
+    font-size: 3.5em;
+}
+
+#texto2 {
+    font-family: 'barroco';
+    font-size: 1.8em;
+}
+
+#texto3 {
+    font-family: 'culos';
+    font-size: 1.7em;
+}
+
+#texto4 {
+    font-family: 'geometria';
+    font-size: 1.55em;
+}
+
+#texto5 {
+    font-family: 'ladi';
+    font-size: 1.8em;
+}
+
+#texto6 {
+    font-family: 'liquido';
+    font-size: 2.1em;
+}
+
+#texto7 {
+    font-family: 'pilowala';
+    font-size: 1.55em;
+}
+
+#texto8 {
+    font-family: 'qaligo';
+    font-size: 1.1em;
+}
+
+#texto9 {
+    font-family: 'reserva';
+    font-size: 1.7em;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    width: 25%;
+    height: 45vh;
+  }
+  
+.overlay:hover {
+    opacity: 1;
+  }
+
+  .textoencima {
+    font-family: monospace;
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
