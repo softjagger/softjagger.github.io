@@ -1,0 +1,264 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'vg5000';
+    src: url(../fonts/VG5000-Regular_web.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 390px) {
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: center;
+        align-items: center;
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 2em;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav span {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 2%;
+        flex-wrap: wrap;
+    }
+
+    .ilustracion img{
+        width: 100%;
+    }
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 1em;
+        color: white;
+        text-align: center;
+    }
+
+ }
+
+/*Medium devices (tablets, 820px and up)*/
+@media (min-width: 820px) {
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: flex-end;
+        align-items: center;
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 2.5em;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: flex-end;
+        justify-items: flex-end;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    header nav span {
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44%;
+        margin: 2%;
+        flex-wrap: wrap;
+    }
+
+    .ilustracion img{
+        width: 100%;
+    }
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 1.5em;
+        color: white;
+        text-align: center;
+    }
+   
+}
+
+/*Large devices (desktops, 1024px and up)*/
+@media (min-width: 1024px) {
+
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: flex-end;
+        align-items: center;
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: unset;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: flex-end;
+        justify-items: flex-end;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    header nav span {
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin: 2%;
+        flex-wrap: wrap;
+    }
+
+    .ilustracion img{
+        width: 100%;
+    }
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 0.7em;
+        color: white;
+        text-align: center;
+    }
+
+}

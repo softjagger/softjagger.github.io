@@ -40,6 +40,7 @@ main {
 }
 
 .contenedor {
+  margin: 5%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -103,6 +104,34 @@ main img {
   }
   
 .overlay4:hover {
+    opacity: 1;
+  }
+
+.overlay5 {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(../images/responsive.jpg);
+    background-position: 50% 50%;
+    width: 20em;
+    height: 20em;
+  }
+  
+.overlay5:hover {
+    opacity: 1;
+  }
+
+.overlay6 {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(../images/portfolio.jpeg);
+    background-position: 60% 10%;
+    width: 20em;
+    height: 20em;
+  }
+  
+.overlay6:hover {
     opacity: 1;
   }
 

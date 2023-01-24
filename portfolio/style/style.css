@@ -1,0 +1,304 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'vg5000';
+    src: url(../fonts/VG5000-Regular_web.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 390px) {
+   
+    body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+    #minombre {
+            margin-top: 10%;
+            position: absolute;
+            width: 100%;
+            animation: fadeIn 3s;
+        }
+        
+    #presentacion {
+            width: 100%;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70%;
+            align-items: center;
+            justify-content: center;
+            font-family: 'vg5000';
+            font-size: 2em;
+            animation: fadeIn 10s;
+            color: white;
+        }
+    
+    h1 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+            margin-bottom: 0%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-family: 'vg5000';
+            font-size: 2em;
+            font-weight: unset;
+            animation: fadeIn 15s;
+        }
+    
+    h1 a:link {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1%;
+            margin-bottom: 0%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-family: 'vg5000';
+            font-size: 1em;
+            font-weight: unset;
+            animation: fadeIn 15s;
+            text-decoration: none;
+        }
+    h1 a:hover {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1%;
+            margin-bottom: 0%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-family: 'vg5000';
+            font-size: 1em;
+            font-weight: unset;
+            animation: fadeIn 15s;
+            text-decoration: underline;
+        }
+    h1 a:visited {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1%;
+            margin-bottom: 0%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-family: 'vg5000';
+            font-size: 1em;
+            font-weight: unset;
+            animation: fadeIn 15s;
+            text-decoration: none;
+        }
+ }
+
+/*Medium devices (tablets, 820px and up)*/
+@media (min-width: 820px) {
+    body {
+        margin: 0;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+#minombre {
+        margin-top: 0%;
+        position: absolute;
+        width: 100%;
+        animation: fadeIn 3s;
+    }
+    
+#presentacion {
+        width: 100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 55%;
+        align-items: center;
+        justify-content: center;
+        font-family: 'vg5000';
+        font-size: 2.5em;
+        animation: fadeIn 10s;
+        color: white;
+    }
+
+    h1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 2em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+    }
+
+h1 a:link {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+    }
+h1 a:hover {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+        text-decoration: underline;
+    }
+h1 a:visited {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+        text-decoration: none;
+    }
+}
+
+/*Large devices (desktops, 1024px and up)*/
+@media (min-width: 1024px) {
+    body {
+        margin: 0;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+#minombre {
+        margin-top: 0%;
+        position: absolute;
+        width: 100%;
+        animation: fadeIn 3s;
+    }
+    
+#presentacion {
+        width: 100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+        align-items: center;
+        justify-content: center;
+        font-family: 'vg5000';
+        font-size: 2em;
+        font-weight: bold;
+        animation: fadeIn 10s;
+        color: white;
+    }
+    
+h1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+    }
+
+h1 a:link {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+    }
+h1 a:hover {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+        text-decoration: underline;
+    }
+h1 a:visited {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1em;
+        font-weight: unset;
+        animation: fadeIn 15s;
+        text-decoration: none;
+    }
+
+}

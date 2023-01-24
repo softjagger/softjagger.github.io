@@ -1,0 +1,309 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'vg5000';
+    src: url(../fonts/VG5000-Regular_web.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 390px) {
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: center;
+        align-items: center;
+        margin: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 1.7em;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav span {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imagen img{
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+    }
+
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 1.5em;
+        color: white;
+        margin: 10%;
+    }
+
+    .slider-container {
+        display: flex;
+        width: 100%;
+        height: 35%;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+      }
+      
+      .slider-container img {
+        flex: 0 0 100%;
+        width: 100%;
+        object-fit: cover;
+        scroll-snap-align: center;
+      }
+   
+ }
+
+/*Medium devices (tablets, 820px and up)*/
+@media (min-width: 820px) {
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: center;
+        align-items: center;
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: 2em;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 2%;
+    }
+
+    header nav span {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imagen img{
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+    }
+
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 1.7em;
+        color: white;
+        margin: 10%;
+    }
+
+    .slider-container {
+        display: flex;
+        width: 100%;
+        height: 45%;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+      }
+      
+      .slider-container img {
+        flex: 0 0 100%;
+        width: 100%;
+        object-fit: cover;
+        scroll-snap-align: center;
+      }
+    
+}
+
+/*Large devices (desktops, 1024px and up)*/
+@media (min-width: 1024px) {
+
+    body {
+        margin: 0%;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    header {
+        justify-items: flex-end;
+        align-items: center;
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        font-family: 'vg5000';
+        font-size: unset;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: flex-end;
+        justify-items: flex-end;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    header nav span {
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+
+    header nav span :link {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav span :hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    header nav span :visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    main {
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imagen img{
+        position: relative;
+        visibility: visible;
+        width: 100%;
+    }
+
+
+    .texto {
+        font-family: 'vg5000';
+        font-size: 1em;
+        color: white;
+        margin: 2%;
+    }
+
+    .slider-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+      }
+      
+      .slider-container img {
+        flex: 0 0 100%;
+        width: 100%;
+        object-fit: cover;
+        scroll-snap-align: center;
+      }
+
+}
